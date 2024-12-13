@@ -3,59 +3,62 @@
 
 int main()
 {
-  int age = 10;
-  double price = 19.99; 
-  bool isRaining = false;
+  // int age = 10;
+  // double price = 19.99; 
+  // bool isRaining = false;
   
-  std::cout << age << "/n" << price << std::endl << isRaining << std::end1;
+  // std::cout << age << "/n" << price << std::endl << isRaining << std::end1;
 
-  int grade_level = 12; 
-  std::cout << "I am a" << grade_level << "th grader." << std::end1; 
-   return 0;
-}
+  // int grade_level = 12; 
+  // std::cout << "I am a" << grade_level << "th grader." << std::endl;
 
-#include <iostream>
-#include <string> 
 
-int main()
-{
-  int num = 5; 
-  num = 10;
+  // Exercise 1 
+  int x = 25; 
+  int y = 3; 
+  
+  int add_xy = x + y;
+  int sub_xy = x - y; 
+  int mult_xy = x * y; 
+  int div_xy = x / y; 
+  int mod_xy = x % y;  
 
-  std::string stu_name = "John"; 
-  std:: string number = "5"
+  int z = 10; 
+    
+  std::cout << add_xy << std::endl
+  std::cout << sub_xy <<
 
-  std::cout << "My name is" << stu_name << std::endl;
 
+
+
+  // Exercise 2 
+  bool isSunny = true; 
+  bool has Umbrella = false; 
+  std::cout << (isSunny && hasUmbrella) << std::endl; 
+
+  bool sun_or_umb = isSunny || hasUmbrella; 
+
+  int n = 7; 
+  double m = 4.0; 
+  bool hasLiscense = false; 
   return 0;
 }
 
+// #include <iostream>
+// #include <string> 
 
+// int main()
+// {
+//   int num = 5; 
+//   num = 10;
 
-Assignment 4.1 
+//   std::string stu_name = "John"; 
+//   std:: string number = "5"
 
-#include <iostream> 
-#include <string> 
-// Exercise 1 
-{
- int x = 25; 
- int y = 3; 
- int add_xy = x + y;
- int sub_xy = x - y; 
- int mult_xy = x * y; 
- int div_xy = x / y; 
- int mod_xy = x % y;  
-  
-std::cout << add_xy << std::endl
-std::cout << sub_xy <<
+//   std::cout << "My name is" << stu_name << std::endl;
 
-}
+//   return 0;
+// }
 
 
 
-// Exercise 2 
-bool isSunny = true; 
-bool has Umbrella = false; 
-std::cout << (isSunny && hasUmbrella) << std::endl; 
-
-bool sun_or_umb = isSunny || hasUmbrella; 
